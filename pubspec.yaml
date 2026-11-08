@@ -1,0 +1,54 @@
+name: khai_tri_ai
+description: Khai Tri AI - tao cau hoi trac nghiem va ban do nang luc.
+publish_to: 'none'
+version: 0.5.5+11
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.0
+  audioplayers: ^6.1.0
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.10.0
+  file_picker: ^13.3.2
+  image_picker: ^1.2.4
+  google_mlkit_text_recognition: ^1.0.1
+  syncfusion_flutter_pdf: ^35.1.43
+  printing: ^5.15.1
+  archive: ^4.6.0
+  xml: ^7.1.0
+  path_provider: ^2.1.6
+  flutter_edge_ai: ^2.6.0
+  flutter_edge_ai_litertlm: ^1.20.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/
+    - assets/images/
+    - assets/models/
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter_400Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Inter_500Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter_600SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter_700Bold.ttf
+          weight: 700
+    - family: SpotifyMixUI
+      fonts:
+        - asset: assets/fonts/SpotifyMixUI-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/SpotifyMixUI-Bold.ttf
+          weight: 700
